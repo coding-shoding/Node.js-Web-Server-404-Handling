@@ -1,0 +1,7 @@
+{
+  "name": "node-server-lab",
+  "version": "1.0.0",
+  "description": "Minimal Node.js server with Home, About, request logging middleware and 404 handling",
+  "main": "server.js",
+  "scripts": {"start": "node server.js"}
+}
