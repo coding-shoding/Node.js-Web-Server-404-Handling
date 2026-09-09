@@ -1,0 +1,13 @@
+* { box-sizing: border-box; }
+body { margin: 0; font-family: Arial, Helvetica, sans-serif; background: #fff; color: #111; }
+nav { border-bottom: 1px solid #ddd; padding: 18px 8%; display: flex; justify-content: space-between; }
+.brand { font-weight: 700; letter-spacing: .04em; }
+nav a { color: #111; text-decoration: none; margin-left: 24px; }
+nav a:hover { text-decoration: underline; }
+main { max-width: 850px; margin: 100px auto; padding: 0 28px; }
+.tag { font-size: 13px; text-transform: uppercase; letter-spacing: .15em; color: #666; }
+h1 { font-size: clamp(42px, 8vw, 76px); margin: 12px 0 18px; line-height: .98; }
+p { color: #555; font-size: 18px; line-height: 1.7; max-width: 650px; }
+.button { display: inline-block; margin-top: 22px; padding: 12px 18px; border: 1px solid #111; color: #111; text-decoration: none; }
+.button:hover { background: #111; color: #fff; }
+footer { border-top: 1px solid #ddd; padding: 20px 8%; color: #777; font-size: 13px; }
